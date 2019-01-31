@@ -8,13 +8,16 @@ body
 nav
 {
 	height: 44px;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0px;
 	background: #000;
 }
 .menu
 {
 	position: relative;
 	margin: 0 auto;
-	width: 1000px;
+	width: 70%;
 	overflow: hidden;
 }
 .menu ul
@@ -36,7 +39,7 @@ nav
 	line-height: 44px;
 	text-decoration: none;
 }
-.menu ul li .fa.fa-apple
+.menu ul li .fa.fa-address-book
 {
 	font-size: 20px;
 }
@@ -115,7 +118,7 @@ nav
 	top: 0;
 	left: 50%;
 	transform: translateX(-50%);
-	width: 600px;
+	width: 60%;
 	height: 44px;
 	opacity: 0;
 	visibility: hidden;
@@ -178,5 +181,9 @@ nav
 .title
 {
 	font-size: 40px;
-	position: absolute;
+	color: #fff;
+	min-height: 500px;
+	background-image: url("imgs/background.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
